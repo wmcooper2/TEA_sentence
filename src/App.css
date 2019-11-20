@@ -3,6 +3,10 @@
   justify-content: center;
 }
 
+.App {
+  margin-top: 30px;
+}
+
 .dictionary {
   margin-top: 50px;
   width: 600px;
