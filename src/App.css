@@ -1,0 +1,44 @@
+:root {
+  display: flex;
+  justify-content: center;
+}
+
+.dictionary {
+  margin-top: 50px;
+  width: 600px;
+}
+
+.searchDiv {
+  display: flex;
+}
+
+.searchBar {
+  display: flex;
+  justify-content: space-between;
+}
+
+#userinput {
+  width: 100vw;
+}
+
+.results {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+  border: solid 1px black;
+}
+
+.resultColumn {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  margin: 6px 6px;
+  font-weight: bold;
+}
+
+.defaultResult {
+  font-size: 32px;
+  margin-left: 40px;
+  margin-top: 40px;
+}
