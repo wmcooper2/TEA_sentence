@@ -27,8 +27,22 @@
 
 .results {
   display: flex;
-  justify-content: center;
+  justify-content: flex-start;
   margin-top: 10px;
+}
+
+.resultlabel {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  width: 150px;
+  font-weight: bold;
+  margin-right: 20px;
+}
+
+.resulttable {
+  display: flex;
+  justify-content: space-between;
 }
 
 .resultColumn {
@@ -44,4 +58,8 @@
   font-size: 32px;
   margin-left: 40px;
   margin-top: 40px;
+}
+
+.custompill {
+  min-width: 20px;
 }

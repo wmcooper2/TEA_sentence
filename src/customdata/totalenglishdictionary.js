@@ -1,4 +1,4 @@
-const Dictionary =
+const DICTIONARY =
 {
     "AIDS": {
         "examples": "",
@@ -11844,4 +11844,4 @@ const Dictionary =
     }
 }
 
-export default Dictionary;
+export default DICTIONARY;
