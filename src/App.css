@@ -35,9 +35,9 @@
   display: flex;
   justify-content: flex-start;
   align-items: center;
-  width: 150px;
+  width: 100px;
+  height: 60px;
   font-weight: bold;
-  margin-right: 20px;
 }
 
 .resulttable {
@@ -52,6 +52,7 @@
   text-align: center;
   margin: 6px 6px;
   font-weight: bold;
+  width: 80px;
 }
 
 .defaultResult {

@@ -6,8 +6,7 @@ const baseVerb = verb => {
     //   console.log("vforms = ", VERBFORMS[word]);
     let nestedForms = Object.values(VERBFORMS[word]);
     if (nestedForms.includes(verb)) {
-      console.log(verb + " base form = " + word);
-      return verb;
+      return word;
     }
   }
   return "";

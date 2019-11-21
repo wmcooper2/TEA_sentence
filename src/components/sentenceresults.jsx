@@ -31,7 +31,7 @@ const Result = props => {
   }
   return (
     <div className="results">
-      <span className="resultlabel">Your sentence:</span>
+      <span className="resultlabel">Given:</span>
       {results}
     </div>
   );
