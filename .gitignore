@@ -10,6 +10,7 @@
 
 # production
 /build
+/tea-sentences
 
 # misc
 .DS_Store
