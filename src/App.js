@@ -1,5 +1,4 @@
 import React from "react";
-import "./App.css";
 import Search from "./components/search";
 import DICTIONARY from "./customdata/totalenglishdictionary.js";
 import levenshteinDistance from "./borrowed/levenshtein";
@@ -7,6 +6,8 @@ import Results from "./components/sentenceresults";
 import { FuzzyNouns, FuzzyVerbs } from "./components/fuzzySearch";
 import baseNoun from "./nounsearch";
 import baseVerb from "./verbsearch";
+import Instructions from "./components/instructions";
+import "./App.css";
 
 const ENTRIES = Object.getOwnPropertyNames(DICTIONARY).sort();
 
@@ -117,6 +118,7 @@ class App extends React.Component {
         <Results props={this.state.entries} />
         <FuzzyNouns props={this.state.entries} />
         <FuzzyVerbs props={this.state.entries} />
+        <Instructions />
       </div>
     );
   }

@@ -12,6 +12,12 @@
   width: 600px;
 }
 
+div .form-row {
+  display: flex;
+  justify-content: center;
+  margin: auto;
+}
+
 .searchDiv {
   display: flex;
 }
@@ -22,7 +28,7 @@
 }
 
 #userinput {
-  width: 100vw;
+  width: 60vw;
 }
 
 .results {
@@ -63,4 +69,14 @@
 
 .custompill {
   min-width: 20px;
+}
+
+.instructions {
+  margin-top: 60px;
+}
+
+p,
+p.instructions ul {
+  font-family: Tahoma, Arial;
+  max-width: 90vw;
 }
