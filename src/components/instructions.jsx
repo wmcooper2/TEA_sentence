@@ -19,7 +19,7 @@ const Instructions = props => {
       </ul>
       <ul>
         Multi-word proper nouns like "Mother Teresa" are not supported in this
-        search even though the appear in the books.
+        search even though they appear in the books.
       </ul>
       <ul>This is not meant to be used on small screens.</ul>
       <ul>
