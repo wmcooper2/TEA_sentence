@@ -1,5 +1,4 @@
 ### Notes
-* The build folder was renamed to "tea-sentences"
 * A version of the dictionary lookup I made for the Total English book series.
 * This tool allows you to input a full sentence to check if the words are in the book.
 * Now, the functionality is limited, but it works as a minimum viable product.
